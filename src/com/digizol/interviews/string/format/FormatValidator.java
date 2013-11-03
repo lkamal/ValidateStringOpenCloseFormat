@@ -27,11 +27,11 @@ public class FormatValidator {
 			openingChars.put(pair.getStart(), pair);
 		}
 	}
-
-	public boolean validate(String string) {
-		return validate(string, false);
-	}
 	
+	 public boolean validate(String string) {
+                return validate(string, false);
+        }
+
 	public boolean validate(String string, boolean validateOtherCharacters) {
 
 		Stack<GroupingPair> stack = new Stack<GroupingPair>();
