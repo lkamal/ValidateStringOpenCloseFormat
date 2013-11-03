@@ -28,10 +28,6 @@ public class FormatValidator {
 		}
 	}
 
-	public boolean validate(String string) {
-		return validate(string, false);
-	}
-	
 	public boolean validate(String string, boolean validateOtherCharacters) {
 
 		Stack<GroupingPair> stack = new Stack<GroupingPair>();
